@@ -27,6 +27,5 @@ app.post('/', logger, (req, res) => {
         message: "Successfully Received data "
     });
 });
-// i am preparaning for my exam 
-// i am still studying today, tommore is mt exam then i will start coeding
+// start new way this
 exports.default = app;
