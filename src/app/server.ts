@@ -1,13 +1,15 @@
-import { Server } from "http"
+import { Server } from "http";
 import app from "./app"
-const PORT = 5000
 
-let server : Server
+const PORT = 5000;
 
-async function bootStrap () {
-    server = app.listen(PORT, () => {
+let server : Server;
+
+
+async function bootstrap() {
+    server = app.listen(PORT , () => {
         console.log(`Example app listening on PORT ${PORT}`)
-      })
-} 
+    })
+}
 
-bootStrap()
+bootstrap()
